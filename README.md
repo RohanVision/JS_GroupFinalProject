@@ -36,12 +36,8 @@ To set up the project locally, follow these steps:
 Clone the repository:
 
 Copy code
- - git clone https://github.com/yourusername/travellive-homepage.git
- - cd travellive-homepage
+ - git clone https://github.com/RohanVision/JS_GroupFinalProject.git
  - Open the index.html file in your web browser:
-
-Copy code
- - open index.html
  - Ensure you have an internet connection for loading external resources like Slick Carousel and Font Awesome.
 
 Usage
