@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/currencyconverter.css">
+    <title>TravelLive - Currency Converter</title>
+</head>
+<body>
+    <header>
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container">
+                    <div class="d-flex justify-around items-center items-wrap">
+                        <div class="site-logo">
+                            <a href="../index.html">
+                                <img src="../assets/images/site-logo.png" alt="travelNext">
+                            </a>
+                        </div>
+                        <div class="menu-wrapper">
+                            <div class="main-menu">
+                                <nav>
+                                    <ul id="navigation" class="d-flex justify-end items-center">
+                                        <li><a href="../index.html">Home</a></li>
+                                        <li><a href="../webpages/about.html">About Us</a></li>
+                                        <li><a href="../webpages/gallery.html">Gallery</a></li>
+                                        <li><a href="../webpages/currencyconverter.html">Currency Conversion</a></li>
+                                        <li><a href="../webpages/contact.html">Contact Us</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bhaumik's Code -->
+
+
+  <main>
+
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Currency Converter</h1>
+      </div>
+    </section>
+
+    <section class="converter-section">
+      <h2>Helping you budget for your trip!</h2>
+    <div class="converter-container">
+      <div class="input-container">
+          <label class="label" for="fromCurrency">From:</label>
+          <select class="select" id="fromCurrency">
+              <option value="INR">INR</option>
+              <option value="USD">USD</option>
+              <option value="CAD">CAD</option>
+          </select>
+          <input class="input" type="number" id="amount" placeholder="Enter amount">
+      </div>
+      <div class="input-container">
+          <label class="label" for="toCurrency">To:</label>
+          <select class="select" id="toCurrency">
+              <option value="INR">INR</option>
+              <option value="USD">USD</option>
+              <option value="CAD">CAD</option>
+          </select>
+          <input class="input" type="text" id="convertedAmount" readonly>
+      </div>
+      <button id="convertButton" class="converter-button">Convert</button>
+  </div>
+  </section>
+
+    
+  </main>
+
+ <!-- Footer -->
+
+    <footer>
+        <div class="footer-wrapper footer-padding">
+            <div class="footer-area">
+                <div class="container">
+                    <div class="row d-flex items-start">
+                        <div class="single-footer">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <img src="../assets/images/logo2_footer.png" alt="travelNext">
+                                </a>
+                            </div>
+                            <div class="footer-title">
+                                <div class="footer-para">
+                                    <p>Land behold it created good saw after she'd Our set living.<br> Signs midst dominion creepeth morning laboris nisi ufsit aliquip.</p>
+                                </div>
+                                <div class="footer-social">
+                                    <a href="#"><i class="fa-brands fa-facebook fa-beat fa-lg" style="color: #e6d305;"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter fa-beat fa-lg" style="color: #00ccff;"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram fa-beat fa-lg" style="color: #f906e4;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-footer">
+                            <div class="footer-title">
+                                <h4>Navigation</h4>
+                                <ul>
+                                    <li><a href="../index.html">Home</a></li>
+                                    <li><a href="../webpages/about.html">About Us</a></li>
+                                    <li><a href="../webpages/gallery.html">Gallery</a></li>
+                                    <li><a href="../webpages/currencyconverter.html">Currency Conversion</a></li>
+                                    <li><a href="../webpages/contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="single-footer">
+                            <div class="footer-title">
+                                <h4>Contact Us</h4>
+                                <p>76/A, Green Lane, Dhanmondi, NYC </br> demonChild@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="copyright text-center">
+                            Copyright © 2023 All rights reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="../assets/js/currencyconverter.js"></script>
+</body>
+</html>
+
+<!-- Name: Bhaumik Raja
+Student Number: 8844424 -->
